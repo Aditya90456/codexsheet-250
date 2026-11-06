@@ -1,0 +1,11 @@
+// Find First And Last Position of Element In Sorted Array
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+  int solve(vector<int>& data) {
+    // Write your solution here
+    return 0;
+  }
+};
