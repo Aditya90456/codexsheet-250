@@ -30,9 +30,21 @@ problems/
 
 1. Open the sheet at [codexsheet.in/problems](https://codexsheet.in/problems) and pick a problem.
 2. `cd` into its folder, edit the file for your language, run it against the input.
-3. Commit. The commit history of this repo is your practice log - recruiters read it,
-   and so does Aditya if you send him the link before a 1:1 session.
-4. Mark it solved on the sheet so the XP, the streak and the rank follow along.
+3. Commit with the problem number in front - that prefix is what the site reads:
+
+   ```bash
+   git commit -m "002: Valid Anagram"
+   ```
+
+4. Paste your log into the **Import my commits** box on the sheet:
+
+   ```bash
+   git log --pretty=%s | sort -u
+   ```
+
+   Every commit you paste is marked solved there, so the XP, the streak, the
+   leaderboard and the certificate all follow the repository. The commit history is
+   also your practice log - recruiters read it, and so does Aditya before a 1:1.
 
 Twelve topics, sixteen patterns, twelve weeks: the same problem appears in all three
 views on the site, so pick whichever one your brain plans by.
